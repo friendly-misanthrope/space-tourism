@@ -14,14 +14,17 @@ h4,
 h5,
 p,
 figure,
-picture {
+picture,
+ul,
+li {
   margin: 0;
+  padding: 0;
 }
 
 /* set up default body styles */
 body {
   line-height: 1.5;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 /* make images easier to work with */
@@ -29,6 +32,12 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
 }
 
 /* make form elements easier to work with */
@@ -53,3 +62,6 @@ select {
 }
 /* ----------END RESET---------- */
 
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+}

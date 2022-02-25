@@ -1,0 +1,14 @@
+:root {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+#main-header {
+    display: flex;
+}
+
+#main-header ul {
+    display: flex;
+}
