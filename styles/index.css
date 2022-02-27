@@ -5,10 +5,3 @@
     min-width: 100%;
   }
 
-#main-header {
-    display: flex;
-}
-
-#main-header ul {
-    display: flex;
-}

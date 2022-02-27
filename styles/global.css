@@ -24,7 +24,8 @@ li {
 /* set up default body styles */
 body {
   line-height: 1.5;
-  /* min-height: 100vh; */
+  margin: 0;
+  min-height: 100vh;
 }
 
 /* make images easier to work with */
@@ -62,6 +63,39 @@ select {
 }
 /* ----------END RESET---------- */
 
-body {
+/* body {
   font-family: 'Barlow Condensed', sans-serif;
+} */
+
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  right: 0;
+  top: 2rem;
+}
+
+#main-header .header-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+#main-header ul {
+  display: flex;
+  gap: 0.5rem;
+  backdrop-filter: blur(10px);
+  padding: 2rem 3rem;
+  padding-right: 8rem;
+  background-color: rgba(255, 255, 255, 3%);
+  
+}
+
+#main-header ul .nav-item a {
+  font-size: 1rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 0 1.5rem;
+  letter-spacing: 2.7px;
+  color: white;
 }
